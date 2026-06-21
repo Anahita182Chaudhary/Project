@@ -1,46 +1,46 @@
-Online Library Catalog
+# Online Library Catalog
 
 A web-based library management system built with PHP and MySQL. Users can browse and search books, log in, and manage the book catalog.
 
-Features
+## Features
 
 - User login system ("login.php")
 - Browse and search book catalog ("view.php")
 - Add new books to the catalog ("add.php")
 - MySQL database integration for persistent storage
 
-Tech Stack
+## Tech Stack
 
-- Backend: PHP
-- Database: MySQL
-- Frontend: HTML, CSS, Bootstrap 5
+- **Backend: PHP
+- **Database: MySQL
+- **Frontend: HTML, CSS, Bootstrap 5
 
-Setup Instructions
+## Setup Instructions
 
-Prerequisites
+### Prerequisites
 
 - XAMPP (or any local server with PHP + MySQL)
 
-Steps
+### Steps
 
-1. Clone this repository
+#### 1. Clone this repository
 
 git clone https://github.com/Anahita182Chaudhary/Project.git
 
-2. Move the project folder
+#### 2. Move the project folder
 
 Copy the project folder into:
 
 C:\xampp\htdocs\
 
-3. Start XAMPP
+#### 3. Start XAMPP
 
 Open XAMPP Control Panel and start:
 
 - Apache
 - MySQL
 
-4. Create the Database
+#### 4. Create the Database
 
 Open:
 
@@ -50,19 +50,19 @@ Create a database named:
 
 library_db
 
-5. Import the Database
+#### 5. Import the Database
 
 Select the "library_db" database and import the file:
 
 library_db.sql
 
-6. Run the Project
+#### 6. Run the Project
 
 Open your browser and visit:
 
 http://localhost/library
 
-Project Structure
+## Project Structure
 
 library/
 ├── add.php
@@ -75,6 +75,6 @@ library/
 ├── images/
 └── README.md
 
-Author
+## Author
 
-Anahita Chaudhary
+**Anahita Chaudhary**
